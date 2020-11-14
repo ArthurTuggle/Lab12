@@ -1,5 +1,6 @@
 using System;
-class CheckingAccount : BankAccount{
+class CheckingAccount : BankAccount
+{
   public CheckingAccount(double b):base(b){}
   public CheckingAccount():base(){}
 
